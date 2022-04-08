@@ -8,14 +8,13 @@
  **/
 
 int main(void)
-
 {
-int n = 48;
-while (n <= 57)
+int c = 0;
+while (c < 10)
 {
-putchar(n);
-n += 1;
+putchar(48 + c);
+c++;
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
